@@ -1,0 +1,59 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "buenas", "buenas tardes", "buenas noches", "buenos días", "saludos"],
+            "responses": ["Hola", "Buenas", "Saludos"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adiós", "hasta luego", "nos vemos", "chau"],
+            "responses": ["Hasta luego", "Nos vemos pronto", "Espero haberte ayudado"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["gracias", "te lo agradezco", "muchas gracias", "mil gracias"],
+            "responses": ["De nada", "Para eso estoy", "Con gusto"]
+        },
+        {
+            "tag": "informacion",
+            "patterns": ["contacto con un agente", "teléfono", "teléfono de ayuda", "contacto"],
+            "responses": ["Claro, puedes contactar con 666 66 66 66", "Nuestros agentes te atienden llamando al 666 66 66 66"]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": ["me puedes ayudar", "necesito ayuda", "ayúdame", "puedes asistirme"],
+            "responses": ["Dime como puedo ayudarte", "Estoy aquí para asistirte", "Cuenta conmigo"]
+        },
+        {
+            "tag": "horarios",
+            "patterns": ["horarios de atención", "horarios", "¿cuándo abren?", "¿qué horarios tienen?", "horario de atención"],
+            "responses": ["Nuestro horario es de lunes a viernes de 9:00 a 18:00", "Atendemos de lunes a viernes, de 9:00 a 18:00", "Nuestro horario es de lunes a viernes de 9:00 a 18:00 horas"]
+        },
+        {
+            "tag": "ubicacion",
+            "patterns": ["dónde están", "ubicación", "dirección", "donde se encuentran", "¿cómo llego?", "dirección física"],
+            "responses": ["Nos encontramos en la Calle Ficticia, 123", "Estamos ubicados en la Calle Ficticia, 123"]
+        },
+        {
+            "tag": "facturacion",
+            "patterns": ["factura", "facturación", "mi factura", "quiero mi factura", "cómo obtener mi factura", "dónde está mi factura"],
+            "responses": ["Puedes acceder a tu factura desde tu cuenta", "Para obtener tu factura, ingresa a tu cuenta"]
+        },
+        {
+            "tag": "envios",
+            "patterns": ["envío", "enviar pedido", "¿cuándo llega mi pedido?", "estado de envío", "rastreo de paquete"],
+            "responses": ["Tu pedido es enviado en 24 horas", "Puedes rastrear tu pedido desde Mis pedidos"]
+        },
+        {
+            "tag": "politicas",
+            "patterns": ["políticas de devolución", "política de privacidad", "políticas", "devoluciones", "¿cuáles son las políticas de la empresa?"],
+            "responses": ["Puedes leerlas en nuestro sitio web"]
+        },
+        {
+            "tag": "soporte_tecnico",
+            "patterns": ["problema técnico", "fallo en el sistema", "ayuda técnica", "soporte técnico", "necesito soporte técnico", "mi cuenta no funciona"],
+            "responses": ["Por favor, proporciona detalles sobre el problema para poder asistirte mejor"]
+        }
+    ]
+}
